@@ -1,0 +1,2 @@
+# TSRA
+ Official PyTorch implementations of our ICASSP 2021 paper "REAL VERSUS FAKE 4K - AUTHENTIC RESOLUTION ASSESSMENT"
