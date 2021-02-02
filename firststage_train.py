@@ -1,5 +1,5 @@
 from Model import EONSS
-from patch import DenseSpatialCrop
+from patch_generator import DenseSpatialCrop
 import os
 import torch
 import torchvision
