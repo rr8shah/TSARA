@@ -32,11 +32,11 @@ def load_checkpoint(filepath):
 
     model.eval()
     return model
-model = load_checkpoint('Model_Weights.pth')
+model = load_checkpoint('pretrained_model/Model_Weights.pth')
 
 criterion = torch.nn.BCELoss()
 
-data = pd.read_csv('TrainData_Histogram_256stride_variance.csv')
+data = pd.read_csv('histogram_data/TrainData_Histogram_256stride_variance.csv')
 X_train = data.iloc[:,:2]
 y_train = data.iloc[:,2]
 clf = LogisticRegression()
