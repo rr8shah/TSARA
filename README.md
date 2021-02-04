@@ -73,7 +73,7 @@ The code has been tested on `Ubuntu 18.04` with `Python 3.8` and `cuda 10.2`
 
 `python demo.py `
 
-- The output should be 'True4K' or 'Fake4K".
+- The output should be 'True4K' for given input image.
 
 ### 5. Codes for comparing models
 
