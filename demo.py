@@ -21,7 +21,7 @@ from sklearn.linear_model import LogisticRegression
 from Model_Filter_Change import EONSS
 from patch_generator import DenseSpatialCrop
 
-X_test = ['test_true_10.png','test_fake_24.png']
+X_test = ['test_true_10.png'] #Enter your image name here
 
 def load_checkpoint(filepath):
     checkpoint = torch.load(filepath, map_location=lambda storage, loc: storage)
@@ -73,7 +73,7 @@ def Evaluation_test(model, dataloader_concat_val_data):
             y_pred.extend(pred.reshape(-1).tolist())
     return y_pred, sig_out
 
-root_dir = 'E:/ECE 699/Real_Fake/NR-ISA/Test/'
+root_dir = 'imgs/'
 test_transform = torchvision.transforms.Compose([DenseSpatialCrop(235,256)])
 y_pred_test_full = []
 zeros_test = []
