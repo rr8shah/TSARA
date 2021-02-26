@@ -46,7 +46,7 @@
 
 ### 2. Dataset
 
-   #### Will be published soon...
+   #### The dataset has been published here https://zenodo.org/record/4526657 
 
 ### 3. Prerequest
 
